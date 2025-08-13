@@ -15,6 +15,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-used-languages.vercel.app/DanielLourencoJr?theme=dark">
-  <img alt="Most Used Languages'" src="https://github-used-languages.vercel.app/DanielLourencoJr">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-used-languages.vercel.app/DanielLourencoJr?theme=dark&config=config.json">
+  <img alt="Most Used Languages'" src="https://github-used-languages.vercel.app/DanielLourencoJr?config=config.json">
 </picture>
