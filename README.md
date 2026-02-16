@@ -1,20 +1,29 @@
-## Hi there, I'm Daniel! 👋
+# Olá, sou Daniel Lourenço 👋
 
-<!--
-**DanielLourencoJr/DanielLourencoJr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Estudante de Engenharia de Computação na UFC | Desenvolvedor Full-stack
 
-Here are some ideas to get you started:
+Construo aplicações web funcionais e práticas. Atualmente focado em desenvolvimento full-stack com Node.js.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-used-languages.vercel.app/DanielLourencoJr?theme=dark&config=config.json">
-  <img alt="Most Used Languages'" src="https://github-used-languages.vercel.app/DanielLourencoJr?config=config.json">
-</picture>
+## 🛠️ Tecnologias
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Node.js, Express
+- **Database:** PostgreSQL, SQL, Supabase
+- **Ferramentas:** Git, Linux (Ubuntu)
+
+## 📂 Projetos em destaque
+
+### [Agenda Pessoal](https://daniellourenco.site)
+Aplicação web completa para organização de tarefas diárias com autenticação de usuários
+- **Tech:** Node.js, HTML/CSS/JS, Supabase (PostgreSQL)
+- **Features:** Sistema de login, CRUD de tarefas, persistência de dados
+- 🔗 [Ver aplicação ao vivo](https://daniellourenco.site)
+
+## 📫 Contato
+
+- 📧 Email: daniellourencojr@proton.me
+- 💼 GitHub: [github.com/DanielLourencoJr](https://github.com/DanielLourencoJr)
+
+---
+
+💼 Disponível para freelances e oportunidades
