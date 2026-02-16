@@ -13,7 +13,7 @@ Construo aplicações web funcionais e práticas. Atualmente focado em desenvolv
 
 ## 📂 Projetos em destaque
 
-### [Agenda Pessoal]([https://daniellourenco.site](https://github.com/DanielLourencoJr/agenda-pessoal))
+### [Agenda Pessoal](https://github.com/DanielLourencoJr/agenda-pessoal)
 Aplicação web completa para organização de tarefas diárias com autenticação de usuários
 - **Tech:** Node.js, HTML/CSS/JS, Supabase (PostgreSQL)
 - **Features:** Sistema de login, CRUD de tarefas, persistência de dados
