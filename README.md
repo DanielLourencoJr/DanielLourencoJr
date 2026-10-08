@@ -20,13 +20,15 @@ Construo ferramentas desktop e de automação com foco em aprendizado de idiomas
 
 ### SentenceMiner
 
-Aplicativo desktop (Rust + Tauri) para mineração de frases e aprendizado de idiomas.
+Aplicativo desktop standalone (Rust + Tauri, binário único sem dev server) para mineração de frases e aprendizado de idiomas.
 
-Fluxo atual: captura a frase selecionada com atalho global, gera o verso do flashcard via API compatível com OpenAI (modos beginner, intermediate, advanced) e envia a nota para o Anki via AnkiConnect.
+Fluxo atual: invoca diálogo estilo spotlight com atalho global Super+J (configurável) ou tray, captura a seleção, sugere automaticamente o termo desconhecido, gera o verso via API compatível com OpenAI (beginner, intermediate, advanced) e envia para o Anki via AnkiConnect.
 
-- Captura via seleção PRIMARY no Linux/X11 e OCR de screenshots
+- Inferência de termo: sugere a palavra mais rara elegível (lista top-10k embarcada, ignora stopwords, nomes próprios, siglas, números e contrações), pré-preenche a etapa 2 sem sobrescrever digitação, com seleção e substituição em uma tecla
+- Camada de vocabulário Anki: cache de palavras conhecidas construído do deck, refresh em background (24h, silencioso com Anki fechado), aprende palavras recém-mineradas no envio, com fallback para raridade pura sem cache
+- Listas Anki sempre atualizadas: revalida deck e note type ao vivo no envio, refresh silencioso a cada invocação, erros acionáveis
 - Preview ao vivo do frente do cartão com presets de formatação
-- Integração com AnkiConnect (decks, note types, envio)
+- Captura via seleção PRIMARY no Linux/X11 e OCR de screenshots
 - Configuração em `~/.config/sentenceminer/config.toml`
 
 Repositório: https://github.com/DanielLourencoJr/SentenceMiner
